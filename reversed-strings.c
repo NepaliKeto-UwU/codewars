@@ -19,7 +19,7 @@ char *strrev (char *string)
         }
         else{
           temp = string[i];               
-          string[i] = string[f_l];      // Changine value of string of both opposite side.
+          string[i] = string[f_l];      // Switching value of string of both opposite side.
           string[f_l] = temp;
           i++;
           f_l--;
